@@ -1,3 +1,5 @@
+@import'~bootstrap/dist/css/bootstrap.css';
+
 // RESET
 * {
     margin: 0;
@@ -6,3 +8,14 @@
 }
 
 // COMMON
+.container {
+    width: 65%;
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
