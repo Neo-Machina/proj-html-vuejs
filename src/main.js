@@ -3,11 +3,15 @@ import App from './App.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 
+import { faTwitter, faFacebookF, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+
+import {  } from '@fortawesome/free-regular-svg-icons'
+
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-
-library.add(faUserSecret)
+library.add(faAngleDown, faTwitter, faFacebookF, faInstagram, faLinkedin)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
