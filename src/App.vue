@@ -3,6 +3,7 @@
     <HeaderComponent :headerNav="menuLinks" :headerIcons="menuIcon" :sideIcons="sideMenuLinks" />
     <InfoCourseComponent />
     <AboutMeComponent />
+    <KaixaStarkComponent />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import InfoCourseComponent from './components/InfoCourseComponent.vue';
 import AboutMeComponent from './components/AboutMeComponent.vue';
+import KaixaStarkComponent from './components/KaixaStarkComponent.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
     InfoCourseComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    KaixaStarkComponent
   },
   data() {
     return {
