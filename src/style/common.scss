@@ -9,7 +9,7 @@
 
 // COMMON
 .container {
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
     padding-right: 0;
     padding-left: 0;
@@ -23,5 +23,9 @@ ul {
 
 a {
     text-decoration: none;
-    
+}
+
+.col {
+    padding-right: 0;
+    padding-left: 0;
 }

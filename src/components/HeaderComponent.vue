@@ -36,6 +36,7 @@
             <!-- jumbotron -->
             <section>
                 <div class="row justify-content-between">
+                    <!-- left-col -->
                     <div class="col-5 left-col">
                         <div class="uppercase_text">i'm wingman</div>
 
@@ -48,6 +49,8 @@
                             <font-awesome-icon class="arrow_icon" icon="fa-solid fa-arrow-right-long" />
                         </button>
                     </div>
+
+                    <!-- right-col -->
                     <div class="col-7 right-col">
                         <img class="background_img" src="../assets/images/home-movation-shape-face.png" alt="shape_face">
                         <img class="person_img" src="../assets/images/home-movation-hero-image.png" alt="hero">
@@ -109,7 +112,7 @@ header {
                             color: $title_link_color;
                             text-transform: $text_capitalize;
                             margin-right: 5px;
-                            font-size: 13px;
+                            font-size: $main_font_size;
                         }
 
                         .angle_down_icon {
@@ -138,10 +141,14 @@ header {
             padding-top: 7rem;
             padding-bottom: 7rem;
 
+            // left-col
             .left-col {
+                padding-left: 0;
+                padding-right: 0;
+
                 .uppercase_text {
                     text-transform: $text_uppercase;
-                    font-size: 13px;
+                    font-size: $main_font_size;
                 }
 
                 h1 {
@@ -149,11 +156,12 @@ header {
                     font-family: $new_roman_font;
                     font-size: 50px;
                     margin: 20px 0 25px 0;
+                    padding-right: 10px;
                 }
 
                 p {
-                    font-size: 13px;
-                    margin-right: 36px;
+                    font-size: $main_font_size;
+                    margin-right: 60px;
                 }
 
                 .my_header_btn {
@@ -172,8 +180,11 @@ header {
                 }
             }
 
+            // right-col
             .right-col {
                 position: relative;
+                padding-left: 0;
+                padding-right: 0;
 
                 .background_img {
                     width: 28rem;
@@ -213,7 +224,7 @@ header {
 
                 a {
                     color: black;
-                    font-size: 13px;
+                    font-size: $main_font_size;
                 }
             }
         }

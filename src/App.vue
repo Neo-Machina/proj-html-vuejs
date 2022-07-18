@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <HeaderComponent :headerNav="menuLinks" :headerIcons="menuIcon" :sideIcons="sideMenuLinks" />
+    <InfoCourseComponent />
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-import HeaderComponent from './components/HeaderComponent.vue'
+import HeaderComponent from './components/HeaderComponent.vue';
+import InfoCourseComponent from './components/InfoCourseComponent.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    InfoCourseComponent
   },
   data() {
     return {
