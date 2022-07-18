@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HeaderComponent :headerNav="menuLinks" :headerIcons="menuIcon"/>
+    <HeaderComponent :headerNav="menuLinks" :headerIcons="menuIcon" :sideIcons="sideMenuLinks" />
   </div>
 </template>
 
@@ -57,6 +57,24 @@ export default {
         {
           url: '#',
           icon: 'fa-brands fa-linkedin'
+        }
+      ],
+      sideMenuLinks: [
+        {
+          url: '#',
+          icon: 'fa-solid fa-ruler-combined'
+        },
+        {
+          url: '#',
+          icon: 'fa-solid fa-life-ring'
+        },
+        {
+          url: '#',
+          icon: 'fa-solid fa-book'
+        },
+        {
+          url: '#',
+          icon: 'fa-cart-shopping'
         }
       ]
     }
