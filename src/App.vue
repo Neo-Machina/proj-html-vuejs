@@ -2,19 +2,21 @@
   <div id="app">
     <HeaderComponent :headerNav="menuLinks" :headerIcons="menuIcon" :sideIcons="sideMenuLinks" />
     <InfoCourseComponent />
+    <AboutMeComponent />
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue';
 import InfoCourseComponent from './components/InfoCourseComponent.vue';
-
+import AboutMeComponent from './components/AboutMeComponent.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
-    InfoCourseComponent
+    InfoCourseComponent,
+    AboutMeComponent
   },
   data() {
     return {

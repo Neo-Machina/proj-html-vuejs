@@ -37,7 +37,7 @@
             <section>
                 <div class="row justify-content-between">
                     <!-- left-col -->
-                    <div class="col-5 left-col">
+                    <div class="col-5 left-col col">
                         <div class="uppercase_text">i'm wingman</div>
 
                         <h1>peace on earth a wonderful wish but no way</h1>
@@ -51,7 +51,7 @@
                     </div>
 
                     <!-- right-col -->
-                    <div class="col-7 right-col">
+                    <div class="col-7 right-col col">
                         <img class="background_img" src="../assets/images/home-movation-shape-face.png" alt="shape_face">
                         <img class="person_img" src="../assets/images/home-movation-hero-image.png" alt="hero">
                     </div>
@@ -100,7 +100,6 @@ header {
             .col {
                 img {
                     width: 8rem;
-                    
                 }   
                 
                 // nav-links
@@ -143,9 +142,6 @@ header {
 
             // left-col
             .left-col {
-                padding-left: 0;
-                padding-right: 0;
-
                 .uppercase_text {
                     text-transform: $text_uppercase;
                     font-size: $main_font_size;
@@ -183,9 +179,6 @@ header {
             // right-col
             .right-col {
                 position: relative;
-                padding-left: 0;
-                padding-right: 0;
-
                 .background_img {
                     width: 28rem;
                     position: absolute;
