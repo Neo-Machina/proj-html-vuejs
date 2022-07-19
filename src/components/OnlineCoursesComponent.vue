@@ -32,7 +32,7 @@
                 </div>
                 <!-- second-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-05-480x298.jpg" alt="successful">
+                    <img src="../assets/images/motivation-course-05-480x298.jpg" alt="confidence">
 
                     <div class="text_container">
                         <div class="content_course">
@@ -54,7 +54,7 @@
                 </div>
                 <!-- third-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-04-480x298.jpg" alt="successful">
+                    <img src="../assets/images/motivation-course-04-480x298.jpg" alt="productivity">
 
                     <div class="text_container">
                         <div class="content_course">
@@ -76,7 +76,7 @@
                 </div>
                 <!-- forth-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-03-480x298.jpg" alt="successful">
+                    <img src="../assets/images/motivation-course-03-480x298.jpg" alt="management-mastery">
 
                     <div class="text_container">
                         <div class="content_course">
@@ -98,7 +98,7 @@
                 </div>
                 <!-- fifth-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-02-480x298.jpg" alt="successful">
+                    <img src="../assets/images/motivation-course-02-480x298.jpg" alt="body-language">
 
                     <div class="text_container">
                         <div class="content_course">
@@ -120,7 +120,7 @@
                 </div>
                 <!-- sixth-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-01-480x298.jpg" alt="successful">
+                    <img src="../assets/images/motivation-course-01-480x298.jpg" alt="leadership">
 
                     <div class="text_container">
                         <div class="content_course">
@@ -161,6 +161,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '../style/variables.scss';
+
 section {
     padding-top: 155px;
 
@@ -215,6 +216,7 @@ section {
 
                         .info_course {
                             font-size: 11px;
+                            color: $grey_color_text;
 
                             span {
                                 margin: 0px 26px 0 7px;

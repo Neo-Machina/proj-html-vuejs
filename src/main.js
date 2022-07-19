@@ -7,12 +7,12 @@ import { faTwitter, faFacebookF, faInstagram, faLinkedin } from '@fortawesome/fr
 
 import { faAngleDown, faArrowRightLong, faRulerCombined, faLifeRing, faBook, faCartShopping} from '@fortawesome/free-solid-svg-icons'
 
-import { faFileLines, faUser } from '@fortawesome/free-regular-svg-icons'
+import { faFileLines, faUser, faCalendar } from '@fortawesome/free-regular-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faAngleDown, faTwitter, faFacebookF, faInstagram, faLinkedin, faArrowRightLong,
-            faRulerCombined, faLifeRing, faBook, faCartShopping, faFileLines, faUser)
+            faRulerCombined, faLifeRing, faBook, faCartShopping, faFileLines, faUser, faCalendar)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
