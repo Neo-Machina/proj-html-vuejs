@@ -102,7 +102,7 @@ export default {
 @import '../style/variables.scss';
 
 section {
-    padding-top: 120px;
+    padding: 120px 0 110px;
 
     .container {
         .row {

@@ -1,11 +1,17 @@
 <template>
   <div id="app">
     <HeaderComponent :headerNav="menuLinks" :headerIcons="menuIcon" :sideIcons="sideMenuLinks" />
-    <InfoCourseComponent />
-    <AboutMeComponent />
-    <KaixaStarkComponent />
-    <OnlineCoursesComponent />
-    <NewArticlesComponent />
+
+    <main>
+      <InfoCourseComponent />
+      <AboutMeComponent />
+      <KaixaStarkComponent />
+      <OnlineCoursesComponent />
+      <NewArticlesComponent />
+    </main>
+
+    <FooterComponent :addressList="addressSection" :brandIcons="menuBrandIcon" :exploreList="exploreSection"
+                      :contactList="coursesSection" :infoList="infoSection" />
   </div>
 </template>
 
@@ -16,6 +22,7 @@ import AboutMeComponent from './components/AboutMeComponent.vue';
 import KaixaStarkComponent from './components/KaixaStarkComponent.vue';
 import OnlineCoursesComponent from './components/OnlineCoursesComponent.vue';
 import NewArticlesComponent from './components/NewArticlesComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
@@ -25,7 +32,8 @@ export default {
     AboutMeComponent,
     KaixaStarkComponent,
     OnlineCoursesComponent,
-    NewArticlesComponent
+    NewArticlesComponent,
+    FooterComponent
   },
   data() {
     return {
@@ -73,6 +81,7 @@ export default {
           icon: 'fa-brands fa-linkedin'
         }
       ],
+      // side-menu-links
       sideMenuLinks: [
         {
           url: '#',
@@ -90,7 +99,86 @@ export default {
           url: '#',
           icon: 'fa-cart-shopping'
         }
-      ]
+      ],
+      // footer-links
+      addressSection: {
+        title: 'Address',
+        address: '382 NE 191st ST # 87394 Miami, FL 22179-3899',
+        contact: '+1(305)547-9909(9am - 5pm EST, Monday - Friday)',
+        email: 'support@maxcoach.com'
+      }, 
+      exploreSection: {
+        title: 'Explore',
+        footerLinks: [
+          {
+            url: '#',
+            text:'Start here'
+          },
+          {
+            url: '#',
+            text: 'Blog'
+          },
+          {
+            url: '#',
+            text: 'About us'
+          }
+        ]
+      },
+      coursesSection: {
+        footerLinks: [
+          {
+            url: '#',
+            text:'Success story'
+          },
+          {
+            url: '#',
+            text: 'Courses'
+          },
+          {
+            url: '#',
+            text: 'Contact us'
+          }
+        ]
+      },
+      infoSection : {
+        title: 'Information',
+        footerLinks: [
+          {
+            url: '#',
+            text:'Membership'
+          },
+          {
+            url: '#',
+            text: 'Purchase Guide'
+          },
+          {
+            url: '#',
+            text: 'Privacy policy'
+          },
+          {
+            url: '#',
+            text: 'Terms of service'
+          }
+        ]
+      },
+      menuBrandIcon: [
+        {
+          url: '#',
+          icon: 'fa-brands fa-facebook-square'
+        },
+        {
+          url: '#',
+          icon: 'fa-brands fa-twitter'
+        },
+        {
+          url: '#',
+          icon: 'fa-brands fa-instagram'
+        },
+        {
+          url: '#',
+          icon: 'fa-brands fa-linkedin'
+        }
+      ],
     }
   }
 }
