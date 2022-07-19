@@ -1,5 +1,8 @@
 @import'~bootstrap/dist/css/bootstrap.css';
 
+
+@import './variables.scss';
+
 // RESET
 * {
     margin: 0;
@@ -33,4 +36,19 @@ a {
 .col {
     padding-right: 0;
     padding-left: 0;
+}
+
+.my_green_btn {
+    text-transform: $text_capitalize;
+    font-size: 12px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: $green_color_text;
+    border: 1px solid $green_color_text;
+    margin-top: 20px;
+
+    .arrow_icon {
+        margin-left: 10px;
+    }
 }

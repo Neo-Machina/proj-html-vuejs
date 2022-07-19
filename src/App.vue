@@ -4,6 +4,7 @@
     <InfoCourseComponent />
     <AboutMeComponent />
     <KaixaStarkComponent />
+    <OnlineCoursesComponent />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import InfoCourseComponent from './components/InfoCourseComponent.vue';
 import AboutMeComponent from './components/AboutMeComponent.vue';
 import KaixaStarkComponent from './components/KaixaStarkComponent.vue';
+import OnlineCoursesComponent from './components/OnlineCoursesComponent.vue';
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     HeaderComponent,
     InfoCourseComponent,
     AboutMeComponent,
-    KaixaStarkComponent
+    KaixaStarkComponent,
+    OnlineCoursesComponent
   },
   data() {
     return {

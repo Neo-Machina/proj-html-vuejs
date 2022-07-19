@@ -44,7 +44,8 @@
 
                         <p>Success isn't overnight. It's when everyday you ge a little better than the day before. It all adds up.</p>
 
-                        <button class="my_header_btn">
+                        <!-- button -->
+                        <button class="my_green_btn">
                             <span>get started for free </span>
                             <font-awesome-icon class="arrow_icon" icon="fa-solid fa-arrow-right-long" />
                         </button>
@@ -158,21 +159,6 @@ header {
                 p {
                     font-size: $main_font_size;
                     margin-right: 60px;
-                }
-
-                .my_header_btn {
-                    text-transform: $text_capitalize;
-                    font-size: 12px;
-                    padding: 10px 50px;
-                    border-radius: 5px;
-                    color: white;
-                    background-color: #20ad96;
-                    border: 1px solid #20ad96;
-                    margin-top: 20px;
-
-                    .arrow_icon {
-                        margin-left: 10px;
-                    }
                 }
             }
 

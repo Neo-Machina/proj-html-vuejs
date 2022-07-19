@@ -48,6 +48,7 @@ section {
                 .video_poster {
                     border-radius: 5px;
                     width: 530px;
+                    box-shadow: 0px 20px 70px -39px;
                 }
 
                 .youtube_icon {
