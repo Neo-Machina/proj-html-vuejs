@@ -5,14 +5,16 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { faTwitter, faFacebookF, faInstagram, faLinkedin, faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 
-import { faAngleDown, faArrowRightLong, faRulerCombined, faLifeRing, faBook, faCartShopping, faArrowDownLong} from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown, faArrowRightLong, faRulerCombined, faLifeRing, faBook, faCartShopping, faArrowDownLong, faCaretDown, faCaretUp} 
+from '@fortawesome/free-solid-svg-icons'
 
 import { faFileLines, faUser, faCalendar } from '@fortawesome/free-regular-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faAngleDown, faTwitter, faFacebookF, faInstagram, faLinkedin, faArrowRightLong,
-            faRulerCombined, faLifeRing, faBook, faCartShopping, faFileLines, faUser, faCalendar, faFacebookSquare, faArrowDownLong)
+            faRulerCombined, faLifeRing, faBook, faCartShopping, faFileLines, faUser, faCalendar, 
+            faFacebookSquare, faArrowDownLong, faCaretDown, faCaretUp)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

@@ -7,6 +7,7 @@
       <AboutMeComponent />
       <KaixaStarkComponent />
       <OnlineCoursesComponent />
+      <RealStoriesComponent />
       <NewArticlesComponent />
     </main>
 
@@ -21,6 +22,7 @@ import InfoCourseComponent from './components/InfoCourseComponent.vue';
 import AboutMeComponent from './components/AboutMeComponent.vue';
 import KaixaStarkComponent from './components/KaixaStarkComponent.vue';
 import OnlineCoursesComponent from './components/OnlineCoursesComponent.vue';
+import RealStoriesComponent from './components/RealStoriesComponent.vue';
 import NewArticlesComponent from './components/NewArticlesComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 
@@ -32,6 +34,7 @@ export default {
     AboutMeComponent,
     KaixaStarkComponent,
     OnlineCoursesComponent,
+    RealStoriesComponent,
     NewArticlesComponent,
     FooterComponent
   },
