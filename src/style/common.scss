@@ -40,13 +40,19 @@ a {
 
 .my_green_btn {
     text-transform: $text_capitalize;
-    font-size: 12px;
+    font-size: $main_font_size;
     padding: 10px 50px;
     border-radius: 5px;
     color: white;
     background-color: $green_color_text;
     border: 1px solid $green_color_text;
     margin-top: 20px;
+    font-weight: bold;
+
+    &:hover {
+        background-color: #3f3a64;
+        border-color: #3f3a64;
+    }
 
     .arrow_icon {
         margin-left: 10px;

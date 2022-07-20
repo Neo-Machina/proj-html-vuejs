@@ -7,6 +7,7 @@
       <AboutMeComponent />
       <KaixaStarkComponent />
       <OnlineCoursesComponent />
+      <BookStoreComponent />
       <LogosComponent />
       <RealStoriesComponent />
       <NewArticlesComponent />
@@ -23,6 +24,7 @@ import InfoCourseComponent from './components/InfoCourseComponent.vue';
 import AboutMeComponent from './components/AboutMeComponent.vue';
 import KaixaStarkComponent from './components/KaixaStarkComponent.vue';
 import OnlineCoursesComponent from './components/OnlineCoursesComponent.vue';
+import BookStoreComponent from './components/BookStoreComponent.vue';
 import LogosComponent from './components/LogosComponent.vue';
 import RealStoriesComponent from './components/RealStoriesComponent.vue';
 import NewArticlesComponent from './components/NewArticlesComponent.vue';
@@ -36,6 +38,7 @@ export default {
     AboutMeComponent,
     KaixaStarkComponent,
     OnlineCoursesComponent,
+    BookStoreComponent,
     LogosComponent,
     RealStoriesComponent,
     NewArticlesComponent,

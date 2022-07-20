@@ -38,15 +38,16 @@ section {
     padding: 110px 0;
 
     .container {
+        width: 59%;
         .row {
             --bs-gutter-x: 0;
 
             .col {
                 img {
                     width: 100px;
-                    height: 100px;
+                    height: 67px;
                     object-fit: scale-down;
-                    filter: grayscale(1) invert(0) opacity(0.3);
+                    filter: grayscale(0.8) invert(0) opacity(0.3);
                 }
             }
         }
