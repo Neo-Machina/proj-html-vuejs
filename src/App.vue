@@ -106,7 +106,7 @@ export default {
         },
         {
           url: '#',
-          icon: 'fa-cart-shopping'
+          icon: 'fa-solid fa-cart-shopping'
         }
       ],
       // footer-links

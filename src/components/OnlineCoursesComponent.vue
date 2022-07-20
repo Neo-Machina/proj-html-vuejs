@@ -10,132 +10,144 @@
             <div class="row">
                 <!-- first-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-06-480x298.jpg" alt="successful">
+                    <div class="card_course">
+                        <img src="../assets/images/motivation-course-06-480x298.jpg" alt="successful">
 
-                    <div class="text_container">
-                        <div class="content_course">
-                            <div class="course_price">
-                                <span>&dollar;30</span>.00
-                            </div>
+                        <div class="text_container">
+                            <div class="content_course">
+                                <div class="course_price">
+                                    <span>&dollar;30</span>.00
+                                </div>
 
-                            <h4>How to Successful: Create A Growth Mindset For Success</h4>
+                                <h4>How to Successful: Create A Growth Mindset For Success</h4>
 
-                            <div class="info_course">
-                                <font-awesome-icon icon="fa-regular fa-file-lines" />
-                                <span>3 Lessons</span>
+                                <div class="info_course">
+                                    <font-awesome-icon icon="fa-regular fa-file-lines" />
+                                    <span>3 Lessons</span>
 
-                                <font-awesome-icon icon="fa-regular fa-user" />
-                                <span>50 Students</span>
+                                    <font-awesome-icon icon="fa-regular fa-user" />
+                                    <span>50 Students</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- second-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-05-480x298.jpg" alt="confidence">
+                    <div class="card_course">
+                        <img src="../assets/images/motivation-course-05-480x298.jpg" alt="confidence">
 
-                    <div class="text_container">
-                        <div class="content_course">
-                            <div class="course_price">
-                                <span>&dollar;30</span>.00
-                            </div>
+                        <div class="text_container">
+                            <div class="content_course">
+                                <div class="course_price">
+                                    <span>&dollar;30</span>.00
+                                </div>
 
-                            <h4>How to Build Confidence in Your Abilities</h4>
+                                <h4>How to Build Confidence in Your Abilities</h4>
 
-                            <div class="info_course">
-                                <font-awesome-icon icon="fa-regular fa-file-lines" />
-                                <span>1 Lesson</span>
+                                <div class="info_course">
+                                    <font-awesome-icon icon="fa-regular fa-file-lines" />
+                                    <span>1 Lesson</span>
 
-                                <font-awesome-icon icon="fa-regular fa-user" />
-                                <span>50 Students</span>
+                                    <font-awesome-icon icon="fa-regular fa-user" />
+                                    <span>50 Students</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- third-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-04-480x298.jpg" alt="productivity">
+                    <div class="card_course">
+                        <img src="../assets/images/motivation-course-04-480x298.jpg" alt="productivity">
 
-                    <div class="text_container">
-                        <div class="content_course">
-                            <div class="course_price">
-                                <span>&dollar;20</span>.00
-                            </div>
+                        <div class="text_container">
+                            <div class="content_course">
+                                <div class="course_price">
+                                    <span>&dollar;20</span>.00
+                                </div>
 
-                            <h4>Productivity Machine - Focus in a Distracted World</h4>
+                                <h4>Productivity Machine - Focus in a Distracted World</h4>
 
-                            <div class="info_course">
-                                <font-awesome-icon icon="fa-regular fa-file-lines" />
-                                <span>5 Lessons</span>
+                                <div class="info_course">
+                                    <font-awesome-icon icon="fa-regular fa-file-lines" />
+                                    <span>5 Lessons</span>
 
-                                <font-awesome-icon icon="fa-regular fa-user" />
-                                <span>50 Students</span>
+                                    <font-awesome-icon icon="fa-regular fa-user" />
+                                    <span>50 Students</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- forth-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-03-480x298.jpg" alt="management-mastery">
+                    <div class="card_course">
+                        <img src="../assets/images/motivation-course-03-480x298.jpg" alt="management-mastery">
 
-                    <div class="text_container">
-                        <div class="content_course">
-                            <div class="course_price">
-                                <span>&dollar;20</span>.00
-                            </div>
+                        <div class="text_container">
+                            <div class="content_course">
+                                <div class="course_price">
+                                    <span>&dollar;20</span>.00
+                                </div>
 
-                            <h4>Effective Time Management Mastery - Complete Guide</h4>
+                                <h4>Effective Time Management Mastery - Complete Guide</h4>
 
-                            <div class="info_course">
-                                <font-awesome-icon icon="fa-regular fa-file-lines" />
-                                <span>18 Lessons</span>
+                                <div class="info_course">
+                                    <font-awesome-icon icon="fa-regular fa-file-lines" />
+                                    <span>18 Lessons</span>
 
-                                <font-awesome-icon icon="fa-regular fa-user" />
-                                <span>50 Students</span>
+                                    <font-awesome-icon icon="fa-regular fa-user" />
+                                    <span>50 Students</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- fifth-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-02-480x298.jpg" alt="body-language">
+                    <div class="card_course">
+                        <img src="../assets/images/motivation-course-02-480x298.jpg" alt="body-language">
 
-                    <div class="text_container">
-                        <div class="content_course">
-                            <div class="course_price">
-                                <span>&dollar;25</span>.99
-                            </div>
+                        <div class="text_container">
+                            <div class="content_course">
+                                <div class="course_price">
+                                    <span>&dollar;25</span>.99
+                                </div>
 
-                            <h4>Body Language Secrets for Entrepreneurs</h4>
+                                <h4>Body Language Secrets for Entrepreneurs</h4>
 
-                            <div class="info_course">
-                                <font-awesome-icon icon="fa-regular fa-file-lines" />
-                                <span>19 Lessons</span>
+                                <div class="info_course">
+                                    <font-awesome-icon icon="fa-regular fa-file-lines" />
+                                    <span>19 Lessons</span>
 
-                                <font-awesome-icon icon="fa-regular fa-user" />
-                                <span>50 Students</span>
+                                    <font-awesome-icon icon="fa-regular fa-user" />
+                                    <span>50 Students</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- sixth-col -->
                 <div class="col">
-                    <img src="../assets/images/motivation-course-01-480x298.jpg" alt="leadership">
+                    <div class="card_course">
+                        <img src="../assets/images/motivation-course-01-480x298.jpg" alt="leadership">
 
-                    <div class="text_container">
-                        <div class="content_course">
-                            <div class="course_price">
-                                <span>&dollar;19</span>.99
-                            </div>
+                        <div class="text_container">
+                            <div class="content_course">
+                                <div class="course_price">
+                                    <span>&dollar;19</span>.99
+                                </div>
 
-                            <h4>Management Skills: The Science of Leadership</h4>
+                                <h4>Management Skills: The Science of Leadership</h4>
 
-                            <div class="info_course">
-                                <font-awesome-icon icon="fa-regular fa-file-lines" />
-                                <span>17 Lessons</span>
+                                <div class="info_course">
+                                    <font-awesome-icon icon="fa-regular fa-file-lines" />
+                                    <span>17 Lessons</span>
 
-                                <font-awesome-icon icon="fa-regular fa-user" />
-                                <span>50 Students</span>
+                                    <font-awesome-icon icon="fa-regular fa-user" />
+                                    <span>50 Students</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -187,40 +199,50 @@ section {
             .col {
                 margin-bottom: 55px;
 
-                img {
+                .card_course {
                     width: 290px;
-                }
+                    border-radius: 5px;
 
-                .text_container {
-                    width: 290px;
+                    &:hover {
+                        box-shadow: 0 14px 59px rgb(0 0 0 / 12%);
+                    }
 
-                    .content_course {
-                        width: 235px;
-                        margin: 0 auto;
+                    img {
+                        width: 290px;
+                    }
 
-                        .course_price {
-                            color: $green_color_text;
-                            font-weight: bold;
-                            font-family: $quicksand_font;
-                            margin: 22px 0 7px;
+                    .text_container {
+                        width: 290px;
+                        padding-bottom: 32px;
 
-                            span {
-                                font-size: 21px;
-                            }
-                        }
+                        .content_course {
+                            width: 235px;
+                            margin: 0 auto;
 
-                        h4 {
-                            font-size: 16px;
-                            padding-bottom: 20px;
-                        }
-
-                        .info_course {
-                            font-size: 11px;
-                            color: $grey_color_text;
-
-                            span {
-                                margin: 0px 26px 0 7px;
+                            .course_price {
+                                color: $green_color_text;
+                                font-weight: bold;
                                 font-family: $quicksand_font;
+                                margin: 22px 0 7px;
+
+                                span {
+                                    font-size: 21px;
+                                }
+                            }
+
+                            h4 {
+                                font-size: 16px;
+                                padding-bottom: 20px;
+                            }
+
+                            .info_course {
+                                font-size: 11px;
+                                color: $grey_color_text;
+
+                                span {
+                                    margin: 0px 26px 0 7px;
+                                    font-family: $quicksand_font;
+                                }
                             }
                         }
                     }

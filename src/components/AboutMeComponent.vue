@@ -76,6 +76,7 @@ section {
 
             .about_paragraph {
                 padding-top: 15px;
+                color: $grey_color_text;
             }
         }
     }

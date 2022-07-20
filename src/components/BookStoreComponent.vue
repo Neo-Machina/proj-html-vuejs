@@ -35,6 +35,7 @@
                 <!-- second-col -->
                 <div class="col left-col">
                     <div class="row small-row">
+                        <!-- first-small-col -->
                         <div class="col text-center">                        
                             <div>
                                 <img src="../assets/images/product-book-11-400x400.jpg" alt="book">
@@ -47,7 +48,28 @@
                                     <span>&dollar;29</span>.00
                                 </div>
                             </div>  
+
+                            <!-- icon-book-store -->
+                            <div class="icon_selectors">   
+                                <div class="circle_icon">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </div>
+
+                                <div class="circle_icon">
+                                    <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                                </div>
+
+                                <div class="circle_icon">
+                                    <font-awesome-icon icon="fa-regular fa-heart" />
+                                </div>
+
+                                <div class="circle_icon">
+                                    <font-awesome-icon icon="fa-solid fa-signal" />
+                                </div>
+                            </div>
                         </div>
+
+                        <!-- second-small-call -->
                         <div class="col text-center">                        
                             <div>
                                 <img src="../assets/images/product-book-10-400x400.jpg" alt="book">
@@ -60,6 +82,25 @@
                                     <span>&dollar;39</span>.00
                                 </div>
                             </div>  
+
+                            <!-- icon-book-store -->
+                            <div class="icon_selectors">   
+                                <div class="circle_icon">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </div>
+
+                                <div class="circle_icon">
+                                    <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                                </div>
+
+                                <div class="circle_icon">
+                                    <font-awesome-icon icon="fa-regular fa-heart" />
+                                </div>
+
+                                <div class="circle_icon">
+                                    <font-awesome-icon icon="fa-solid fa-signal" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -133,7 +174,14 @@ section {
                     --bs-gutter-x: 1.2rem;
 
                     .col {
-                        
+                        position: relative;
+
+                        &:hover {
+                            .icon_selectors {
+                                display: block;
+                            }
+                        }
+
                         img {
                             width: 257px;
                             margin: 0 auto;
@@ -154,6 +202,27 @@ section {
                                 span {
                                     font-size: 19px;
                                 }
+                            }
+                        }
+                        
+                        // icon-book-store
+                        .icon_selectors {
+                            position: absolute;
+                            top: 130px;
+                            right: 30px;
+                            transform: translate( -50%, -50%);
+                            display: none;
+
+                            .circle_icon {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 50%;
+                                font-size: 10px;
+                                background-color: white;
+                                margin-bottom: 7px;
                             }
                         }
                     }
