@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            <!-- button -->
+            <!-- green-link -->
             <div class="d-flex justify-content-center">
                 <a class="green_link">
                     <span>view all posts</span>
@@ -149,6 +149,7 @@ section {
             }
         }
 
+        // green-link
         .green_link {
             text-transform: $text_uppercase;
             color: $green_color_text;

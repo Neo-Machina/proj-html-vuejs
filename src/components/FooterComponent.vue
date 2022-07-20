@@ -176,6 +176,7 @@ footer {
             text-transform: $text_capitalize;
         }
 
+        // button
         .to_top_button {
             display: flex;
             justify-content: center;

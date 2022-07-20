@@ -10,13 +10,14 @@
                 <!-- links-web-page -->
                 <div class="col">
                     <ul class="nav_links d-flex justify-content-between">
-                        <li v-for="(link,index) in headerNav" :key="index"
-                            class="d-flex align-items-center"    >
-                            <a :href="link.url">
+                        <li v-for="(link,index) in headerNav" :key="index">
+                            <a :href="link.url" class="d-flex align-items-center">
                                 {{ link.text }}
+
+                                <span class="angle_down_icon">
+                                    <font-awesome-icon icon="fa-solid fa-angle-down" />
+                                </span>
                             </a>
-                            
-                            <font-awesome-icon class="angle_down_icon" icon="fa-solid fa-angle-down" />
                         </li>
                     </ul>
                 </div>
@@ -98,6 +99,7 @@ header {
         // nav-bar
         nav {
             height: 70px;
+
             .col {
                 img {
                     width: 8rem;
@@ -112,13 +114,12 @@ header {
                             color: $title_link_color;
                             text-transform: $text_capitalize;
                             margin-right: 5px;
-                            font-size: $main_font_size;
-                        }
+                            font-size: 13px;
 
-                        .angle_down_icon {
-                            font-size: 7px;
+                            .angle_down_icon {
+                                font-size: 7px;
+                            }
                         }
-
                     }
                 }
 
@@ -165,6 +166,7 @@ header {
             // right-col
             .right-col {
                 position: relative;
+
                 .background_img {
                     width: 28rem;
                     position: absolute;

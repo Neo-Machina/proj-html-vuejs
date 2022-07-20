@@ -1,19 +1,24 @@
 <template>
     <section>
         <div class="container">
+            <!-- first-row -->
             <div class="row">
                 <div class="col">
                     <h4>about me</h4>
                 </div>
             </div>
 
+            <!-- second-row -->
             <div class="row">
+                <!-- left-col -->
                 <div class="col-4 col">
                     <h2>
                         How to Be an Alpha Male: The 15 Habbits of True Alphas
                     </h2>
                 </div>
-                <div class="col col-right">
+
+                <!-- right-col -->
+                <div class="col right-col">
                     <div class="first_two_question">Want to learn how to be <span>an alpha male</span>? How to be more masculine?</div>
 
                     <div class="first_two_question">How to be the man you've always wanted to be?</div>
@@ -60,7 +65,8 @@ section {
             }
         }
 
-        .col-right {
+        // right-col
+        .right-col {
             font-size: 13px;
             padding-left: 155px;
 

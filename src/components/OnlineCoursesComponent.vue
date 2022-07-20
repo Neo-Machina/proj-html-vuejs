@@ -32,6 +32,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- second-col -->
                 <div class="col">
                     <div class="card_course">
@@ -56,6 +57,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- third-col -->
                 <div class="col">
                     <div class="card_course">
@@ -80,6 +82,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- forth-col -->
                 <div class="col">
                     <div class="card_course">
@@ -104,6 +107,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- fifth-col -->
                 <div class="col">
                     <div class="card_course">
@@ -128,6 +132,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <!-- sixth-col -->
                 <div class="col">
                     <div class="card_course">

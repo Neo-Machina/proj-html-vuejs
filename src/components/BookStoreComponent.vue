@@ -27,6 +27,7 @@
                         </li>
                     </ul>
 
+                    <!-- button -->
                     <button class="my_green_btn">
                         <span>get free ebook</span>
                     </button>
@@ -52,24 +53,32 @@
                             <!-- icon-book-store -->
                             <div class="icon_selectors">   
                                 <div class="circle_icon">
-                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                    <a href="#">
+                                        <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                    </a>
                                 </div>
 
                                 <div class="circle_icon">
-                                    <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                                    <a href="#">
+                                        <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                                    </a>
                                 </div>
 
                                 <div class="circle_icon">
-                                    <font-awesome-icon icon="fa-regular fa-heart" />
+                                    <a href="#">
+                                        <font-awesome-icon icon="fa-regular fa-heart" />
+                                    </a>
                                 </div>
 
                                 <div class="circle_icon">
-                                    <font-awesome-icon icon="fa-solid fa-signal" />
+                                    <a href="#">
+                                        <font-awesome-icon icon="fa-solid fa-signal" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- second-small-call -->
+                        <!-- second-small-col -->
                         <div class="col text-center">                        
                             <div>
                                 <img src="../assets/images/product-book-10-400x400.jpg" alt="book">
@@ -86,19 +95,27 @@
                             <!-- icon-book-store -->
                             <div class="icon_selectors">   
                                 <div class="circle_icon">
-                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                    <a href="#">
+                                        <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                    </a>
                                 </div>
 
                                 <div class="circle_icon">
-                                    <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                                    <a href="#">
+                                        <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                                    </a>
                                 </div>
 
                                 <div class="circle_icon">
-                                    <font-awesome-icon icon="fa-regular fa-heart" />
+                                    <a href="#">
+                                        <font-awesome-icon icon="fa-regular fa-heart" />
+                                    </a>
                                 </div>
 
                                 <div class="circle_icon">
-                                    <font-awesome-icon icon="fa-solid fa-signal" />
+                                    <a href="#">
+                                        <font-awesome-icon icon="fa-solid fa-signal" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +186,7 @@ section {
 
             // left-col
             .left-col {
-                // second-small-row
+                // small-row
                 .small-row {
                     --bs-gutter-x: 1.2rem;
 
@@ -223,6 +240,10 @@ section {
                                 font-size: 10px;
                                 background-color: white;
                                 margin-bottom: 7px;
+                                
+                                a {
+                                    color: inherit;
+                                }
                             }
                         }
                     }

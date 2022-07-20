@@ -55,6 +55,7 @@ section {
         --bs-gutter-x: 0;
         position: relative;
 
+        // left-col
         .left-col{
             background-image: url('../assets/images/background-pattern-wavify.png');
             background-color: #f7f7fd;

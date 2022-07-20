@@ -60,6 +60,7 @@ section {
                 }
             }
         }
+        
         // right-col
         .col-5 {
             padding: 0px 45px;
